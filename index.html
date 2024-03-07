@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Hadezign-Hobbies-Art.ico" type="Aula-03/ICONE">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Galeria de Arte</title>    
+</head>
+
+<body>
+    <header class="cabeçalho">
+        
+        <div class="container">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Minha</b>Galeria</h1>
+        </div>
+    </header>
+
+    <h1 class="container__titulo" style="text-align: center;"> <b class="container__titulo--negrito">LISTA DE OBRAS:</b></h1>
+    
+    <p>Esse site é uma compilação das obras principais de uma artista chamada Ana Beatriz, abaixo há uma lista das principais.</p>
+    
+        <li>Obra: "HELLO"</li>
+        <a href="OBRA1.html" target="_blank">Clique aqui para ver a imagem em alta resolução.</a>
+    
+        <li>Obra: "Shen Qinqiu"</li>
+        <a href="OBRA2.html" target="_blank">imagem em alta resolução.</a>
+    
+        <li>Obras: "Kokichi Ouma"</li>
+        <a href="OBRA3.html" target="_blank">imagem em alta resolução.</a>
+        
+        <li>Obra: "Sam triste"</li>
+        <a href="OBRA4.html" target="_blank">imagem em alta resolução.</a>
+
+
+        <p>Link do site da artista:</p>
+        <a href="https://flamentitos223.tumblr.com/" target="_blank">Clique aqui para ir ao site da artista.</a>
+
+        <p>Acesso aos arquivos do Github para o download:</p>
+        <a href="https://flamentitos223.tumblr.com/" target="_blank">Link para o Github</a>
+    
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">OUTRAS OBRAS:</h2>
+
+        <div class="swiper">
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/gator.png" alt="Obra 1"></div>
+            <div class="swiper-slide"><img src="img/sam2.jpg" alt="Obra 2"></div>
+            <div class="swiper-slide"><img src="img/hajime.jpg" alt="Obra 3"></div>
+            <div class="swiper-slide"><img src="img/samo againg.png" alt="Obra 4"></div>
+            <div class="swiper-slide"><img src="img/crowley.jpg" alt="Obra 5"></div>
+
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
+
+        });
+    </script>
+
+</body>
+</html>
