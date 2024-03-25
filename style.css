@@ -34,10 +34,10 @@ head {
     width: 200px;
 }
 
-img {
+.img {
     height: 500px;
-    object-fit: cover;
     width: 500px;
+    text-align: center;
 }
 
 .header{
@@ -50,3 +50,6 @@ img {
 
 }
 
+.img_container{
+    text-align: center;
+}
