@@ -10,15 +10,17 @@ body, li, p{
 :root {
     --cor-de-fundo:#ffe291;
     --branco: #FFFFFF;
-    --laranja: #eb9b00;
+    --laranja: #ffaa00;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002F52;
     --preto:#000000;
-    --rosa: #ff4f89;
+    --rosa: #ff2436;
     --fonte-principal: "Poppins";
     --azul: #002F52;
     --fonte-secundaria: "Josefin Sans";
     --preto:#000000;
+
+    
 }
 
 body {
@@ -26,6 +28,8 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    background-image: linear-gradient(to top, #ffe291 50%,#ff6e42);
+    
 }
 
 head {
@@ -34,13 +38,13 @@ head {
     width: 200px;
 }
 
-.img {
+img {
     height: 500px;
+    object-fit: cover;
     width: 500px;
-    text-align: center;
 }
 
-.header{
+.header {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
@@ -50,6 +54,8 @@ head {
 
 }
 
-.img_container{
-    text-align: center;
+.image {
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
