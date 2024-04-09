@@ -1,11 +1,11 @@
 .carrossel__titulo{
     background: var(--laranja);
-    color: var(--preto);
+    color: var(--laranja-vermelho);
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
-    padding: 1em 0 0.5em 0;
+    padding: 8px;
     border-radius: 100em;
 }
 
@@ -24,15 +24,6 @@
     margin-bottom: 0.5em;
 }
 
-.card__botões{
-    display: flex;
-    justify-content: space-between;
-}
-
-.botões{
-    display: flex;
-    color: rgb(0, 0, 0);
-}
 
 .card{
     background: var(--branco);
@@ -47,17 +38,8 @@
     font-weight:700;
 }
 
-.descrição__titulo-livro{
-    color: var(--laranja);
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0.5em 0;
-}
 
 .descrição__texto{
     font-size: 14px;
 }
 
-.botões__item{
-    margin: 0 0.5em;
-}
