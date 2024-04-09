@@ -4,7 +4,7 @@
 
 body, li, p{
     margin: 10px;
-    padding: 0px;
+    padding: 5px;
 }
 
 :root {
@@ -19,6 +19,7 @@ body, li, p{
     --azul: #002F52;
     --fonte-secundaria: "Josefin Sans";
     --preto:#000000;
+    --laranja-vermelho: #dd5212;
 
     
 }
@@ -58,8 +59,20 @@ img {
     justify-content: center;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 a {  		
     text-decoration:none;    	
+    }
+
+#um {
+        background-color: #ffaa00;
+        border: 10px;
+        border-radius: 20px;
+        color: #dd5212;
+    }
+
+#dois {
+        padding: 1em;
     }
